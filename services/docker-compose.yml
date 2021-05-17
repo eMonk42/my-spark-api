@@ -11,17 +11,8 @@ services:
       - "9001:80"
 
     environment:
-      PGADMIN_DEFAULT_EMAIL: rick@devhausleipzig.de
-      PGADMIN_DEFAULT_PASSWORD: schwifty
-
-  adminer:
-    image: adminer:4.7.7-standalone
-
-    links:
-      - postgres:postgres
-
-    ports:
-      - "9000:8080"
+      PGADMIN_DEFAULT_EMAIL: spark@devhausleipzig.de
+      PGADMIN_DEFAULT_PASSWORD: spark
 
   postgres:
     image: postgres:13.0
