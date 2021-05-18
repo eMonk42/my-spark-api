@@ -1,0 +1,11 @@
+{
+  "name": "spark-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devhausleipzig/spark-api",
+  "author": "eMonk42 <lukas.dendtel@gmx.de>",
+  "license": "MIT",
+  "scripts": {
+    "serve:db": "cd services/ && docker-compose up"
+  }
+}
