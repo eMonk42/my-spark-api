@@ -6,6 +6,15 @@
   "author": "eMonk42 <lukas.dendtel@gmx.de>",
   "license": "MIT",
   "scripts": {
-    "serve:db": "cd services/ && docker-compose up"
+    "serve:db": "cd services/ && docker-compose up",
+    "build": "tsc --watch",
+    "start": "node dist/index.js",
+    "serve": "nodemon --watch './src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
   }
 }
