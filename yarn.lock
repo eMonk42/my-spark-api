@@ -15,6 +15,13 @@
     "@fastify/forwarded" "^1.0.0"
     ipaddr.js "^2.0.0"
 
+"@fusionauth/typescript-client@^1.27.2":
+  version "1.27.2"
+  resolved "https://registry.yarnpkg.com/@fusionauth/typescript-client/-/typescript-client-1.27.2.tgz#5f0dafb361808881d1407ad838f4c8721587631b"
+  integrity sha512-YXbZXJb5jV3qxsEaQZzCcrwLMwUbqlYSV61g9jlq+1bWeboJYzK45zM7c99BLMWZZI/+GDv3/wHiAYfJFKJmew==
+  dependencies:
+    node-fetch "^2.6.1"
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -744,6 +751,11 @@ ms@^2.1.1:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
+
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 nodemon@^2.0.7:
   version "2.0.7"
