@@ -12,7 +12,7 @@ services:
 
     environment:
       PGADMIN_DEFAULT_EMAIL: spark@devhausleipzig.de
-      PGADMIN_DEFAULT_PASSWORD: spark
+      PGADMIN_DEFAULT_PASSWORD: mysparkpassword
 
   postgres:
     image: postgres:13.0
